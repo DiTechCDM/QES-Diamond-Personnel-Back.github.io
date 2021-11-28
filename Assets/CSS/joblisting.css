@@ -291,17 +291,26 @@ body, html {
     display: none;
 }
 
+.input-select {
+    display: none;
+}
+
 
 @media screen and (max-width: 640px) {
     .CTA-btn {
         display: none;
     }
 
-    .input-select{
+    .input-select {
+        display: block;
+    }
+
+    .input-select {
         position: relative;
         top: 0;
     }
-    .input-select i{
+
+    .input-select i {
         position: absolute;
         top: 10px;
         color: #AFAFAF;
