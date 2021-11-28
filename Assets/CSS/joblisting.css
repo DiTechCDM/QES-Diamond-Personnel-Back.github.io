@@ -107,6 +107,11 @@ body, html {
     color: #585858;
 }
 
+.job-banner-content a {
+    text-decoration: none;
+    color: #585858;
+}
+
 .job-banner-content img {
     width: 100%;
 }
