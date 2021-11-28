@@ -403,10 +403,6 @@ body, html {
 }
 
 @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-    .CTA-btn>button {
-        padding: 10px 20px 10px 20px;
-    }
-
     .CTA-btn>button:nth-child(2) {
         margin-left: 1rem;
     }
@@ -421,6 +417,42 @@ body, html {
 
     .CTA-btn>button:nth-child(5) {
         margin-left: 1rem;
+    }
+
+    .CTA-btn #btn_fun1 {
+        -ms-grid-row: 1;
+        -ms-grid-row-span: 1;
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 1;
+    }
+    .CTA-btn #btn_fun2 {
+        -ms-grid-row: 1;
+        -ms-grid-row-span: 1;
+        -ms-grid-column: 2;
+        -ms-grid-column-span: 2;
+    }
+    .CTA-btn #btn_fun3 {
+        -ms-grid-row: 1;
+        -ms-grid-row-span: 1;
+        -ms-grid-column: 4;
+        -ms-grid-column-span: 4;
+        width: 150px;
+    }
+    .CTA-btn #btn_fun4 {
+        -ms-grid-row: 1;
+        -ms-grid-row-span: 1;
+        -ms-grid-column: 8;
+        -ms-grid-column-span: 8;
+        margin-left: -5.5rem;
+        width: 150px;
+    }
+    .CTA-btn #btn_fun5 {
+        -ms-grid-row: 1;
+        -ms-grid-row-span: 1;
+        -ms-grid-column: 18;
+        -ms-grid-column-span: 18;
+        margin-left: -3.5rem;
+        width: 150px;
     }
 }
 
