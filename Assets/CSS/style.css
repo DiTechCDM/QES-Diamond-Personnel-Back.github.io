@@ -28,6 +28,16 @@ body, html {
     width: 2rem !important;
 }
 
+.add-col a {
+    text-decoration: none;
+    color: white;
+}
+
+.call a {
+    text-decoration: none;
+    color: black;
+}
+
 @font-face {
     font-family: Poppins_Regular;
     src: url('../Fonts/Poppins/Poppins-Regular.ttf');
